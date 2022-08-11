@@ -2,47 +2,47 @@ import Head from 'next/head'
 
 export default function Home() {
   return (
-    <nav class="flex items-center justify-between p-6 bg-black">
+    <nav className="flex items-center justify-between p-6 bg-black">
       <div>
-        <h1 class="text-white">ACM</h1>
+        <h1 className="text-white">ACM</h1>
       </div>
       <div>
-        <ul class="flex align-middle">
-          <li class="ml-12">
+        <ul className="flex align-middle">
+          <li className="ml-12">
             <a
-              class="text-white hover:no-underline visited:text-white"
+              className="text-white hover:no-underline visited:text-white"
               href="/"
             >
               HOME
             </a>
           </li>
-          <li class="ml-12">
+          <li className="ml-12">
             <a
-              class="text-white hover:no-underline visited:text-white"
+              className="text-white hover:no-underline visited:text-white"
               href="/"
             >
               CALENDAR
             </a>
           </li>
-          <li class="ml-12">
+          <li className="ml-12">
             <a
-              class="text-gray-400 cursor-not-allowed visited:text-white"
+              className="text-gray-400 cursor-not-allowed visited:text-white"
               href="/"
             >
               FEATURED EVENTS
             </a>
           </li>
-          <li class="ml-12">
+          <li className="ml-12">
             <a
-              class="text-gray-400 cursor-not-allowed visited:text-white"
+              className="text-gray-400 cursor-not-allowed visited:text-white"
               href="/"
             >
               RESOURCES
             </a>
           </li>
-          <li class="ml-12">
+          <li className="ml-12">
             <a
-              class="text-gray-400 cursor-not-allowed visited:text-white"
+              className="text-gray-400 cursor-not-allowed visited:text-white"
               href="/"
             >
               ABOUT US
